@@ -73,9 +73,8 @@
 
     <modules>
         <module>test-resources</module>
-        <module>utils-se</module>
-        <!--module>utils-cdi</module>
-        <module>utils-jsf</module-->
+        <module>utils-cdi</module>
+        <module>utils-jsf</module>
     </modules>
 
     <dependencies>
@@ -259,7 +258,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
-                        <version>2.4</version>
+                        <version>3.2.1</version>
                         <executions>
                             <execution>
                                 <id>attach-sources</id>
